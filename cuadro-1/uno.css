@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 947px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: rgb(236, 186, 236);
+     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    padding: 305px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color:rgb(163, 81, 204);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

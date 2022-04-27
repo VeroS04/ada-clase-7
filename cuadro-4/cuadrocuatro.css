@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(236, 186, 236);
+   padding: 2.5% 0%;
+   font-size: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    width: 80%;
+    padding: 14% 0%;
+    font-size: 2em;
+}
+
+.colum {
+    background-color: rgb(198, 122, 196);
+    width: 20%;
+    padding: 14% 0%;
+    font-size: 2em;
+}
+
+.footer {
+    background-color:rgb(163, 81, 204);
+    padding: 2.5% 0%;
+    font-size: 2em;
+}

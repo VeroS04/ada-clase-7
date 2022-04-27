@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios {
+  text-align: center;
+  width: 16%;
+  margin-top: 12%;
+}
+
+.titulo {
+    font-size: 2.5em;
+}
+
+.texto-servicio {
+  margin-top: 4%;
+}
+
+.lista-cajas {
+  width: 55%;
+  height: 20em;
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.cajas {
+  width: 45%;
+  height: 10em;
+}
+
+.dentro-caja2 {
+    margin-top: 3%;
+}
+
+.fa-solid {
+  font-size: 1.5em;
+  padding: 2.5% 2.5%;
+  background-color: royalblue;
+  color: white;
+  border-radius: 10%;
+}
+
+.titulo-cajas {
+    font-size: 1.2em;
+    margin-top: 3%;
+}
+
+.p-cajas {
+    margin-top: 3%;
+    font-size: 0.9em;
+}

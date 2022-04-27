@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(43, 180, 225);
+    padding: 17.2% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cuadro {
+    background-color: white;
+    padding: 0.6%;
+    width: 32%;
+    border-radius: 0.5em;
+}
+
+.contenido-1 {
+    display: flex;
+}
+
+.foto {
+    width: 8%;
+    border-radius: 50%;
+}
+
+.contenido-medio {
+    padding: 2.5% 0% 2.5%;
+    border-bottom: solid 0.2em rgb(194, 194, 197);
+}
+
+.text {
+    font-size: 1.1em;
+}
+
+.contenido-2 {
+    padding: 2.5% 0%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+
+.cantidad {
+    padding: 1% 0%;
+}
+
+.botones {
+    padding: 1% 10%;
+    display: flex;
+
+}
+
+.boton {
+    margin-left: 15%;
+}

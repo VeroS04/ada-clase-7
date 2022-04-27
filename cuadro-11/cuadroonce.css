@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(236, 186, 236);
+   padding: 4%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colum-l {
+    background-color: rgb(198, 122, 196);
+    width: 15%;
+    padding: 14% 0%;
+}
+
+
+.main {
+    background-color: white;
+    width: 80%;
+    padding: 14% 0%;
+}
+
+.colum-r {
+    background-color: rgb(198, 122, 196);
+    width: 15%;
+    padding: 14% 0%;
+}
+
+.footer {
+    background-color:rgb(163, 81, 204);
+    padding: 4%;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(236, 186, 236);
+   padding: 3%;
+}
+
+.nav-bar {
+    background-color: rgb(177, 104, 201);
+    color: white;
+    padding: 1%;
+}
+
+.main {
+    background-color: white;
+    padding: 14.5%;
+}
+
+.footer {
+    background-color:rgb(163, 81, 204);
+    padding: 3%;
+}

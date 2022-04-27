@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(51, 51, 51);
+  font-family: sans-serif;
+}
+
+.cartas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+  font-size: 2.1em;
+  padding: 2% 0% 0% 0%;
+}
+
+.descripcion {
+  color: white;
+  padding: 1% 0% 3% 0%;
+  text-align: center;
+}
+
+.seccion-cartas {
+  width: 60%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cartas-de-precios {
+  background-color: rgb(59, 59, 59);
+  color: rgb(215, 214, 214);
+  width: 25%;
+  padding: 2% 2% 4% 2%;
+  border-radius: 0.5em;
+  border: 0.5px solid white;
+}
+
+.texto-precios {
+  font-size: 1em;
+  padding: 2.2%;
+  text-align: center;
+}
+
+.texto {
+  font-size: 1.6em;
+  padding: 1% 0% 17% 0%;
+}
+
+.precio {
+  font-size: 3em;
+  padding: 1% 0% 6%;
+}
+
+.simbolo {
+  font-size: 0.5em;
+  vertical-align: super;
+}
+
+.lista {
+  list-style: none;
+  font-size: 1.3em;
+  padding: 10% 11% 10% 11%;
+  height: 38%;
+}
+
+.seccion-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    background-color: rgb(183, 182, 182);
+    color: rgb(33, 117, 155);
+    font-size: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    width: 100%;
+    padding: 6%;
+    border-radius: 0.5em;
+}

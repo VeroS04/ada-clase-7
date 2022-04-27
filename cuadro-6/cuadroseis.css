@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .contenedor {
+      display: flex;
+      background-color: aqua;
+  }
+  
+  .colum {
+      background-color: rgb(198, 122, 196);
+      width: 20%;
+      padding: 21.7% 0% 21.7% 0%;
+      font-size: 2em;
+    }
+  
+  .cuadrodos {
+      background-color: bisque;
+      width: 80%;
+  }
+  
+  .header {
+      background-color: rgb(236, 186, 236);
+      font-size: 2em;
+      width: 100%;
+      padding: 2% 0%;
+  }
+  
+  .main {
+    background-color: white;
+    width: 100%;
+    font-size: 2em;
+    padding: 19.5% 0%;
+  }
+  
+  .footer {
+    background-color: rgb(163, 81, 204);
+    width: 100%;
+    font-size: 2em;
+    padding: 2% 0%;
+  }
+  
